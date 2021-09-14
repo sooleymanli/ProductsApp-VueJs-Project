@@ -13419,7 +13419,7 @@ module.exports = function listToStyles (parentId, list) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_NewProduct_vue__ = __webpack_require__(6);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_57d27560_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_NewProduct_vue__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d059bd7c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_NewProduct_vue__ = __webpack_require__(23);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -13436,7 +13436,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_NewProduct_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_57d27560_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_NewProduct_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d059bd7c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_NewProduct_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -13526,7 +13526,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"row d-flex justify-content-center "},[_c('div',{staticClass:"card  col-md-3"},[_c('div',{staticClass:"card-body tex-center d-flex align-items-center flex-column"},[_c('img',{staticClass:"img-responsive text-center mb-3",attrs:{"height":"128","src":_vm.product.selectedImage == null
-              ? '/src/assets/default.png'
+              ? './src/assets/default.png'
               : _vm.product.selectedImage}}),_vm._v(" "),_c('input',{ref:"file",staticClass:"form-control",staticStyle:{"display":"none"},attrs:{"type":"file"},on:{"change":function($event){return _vm.onChange($event)}}}),_vm._v(" "),_c('button',{staticClass:"btn btn-outline-secondary ",attrs:{"type":"button"},on:{"click":function($event){return _vm.$refs.file.click()}}},[_vm._v("\r\n          Şəkil yüklə\r\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col-md-5"},[_c('div',{staticClass:"col-md-11 card"},[_c('div',{staticClass:"card-body"},[_c('div',{staticClass:"form-group"},[_c('label',[_vm._v("Məhsulun adı")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.product.name),expression:"product.name"}],staticClass:"form-control",attrs:{"type":"text","placeholder":"Ad daxil edin"},domProps:{"value":(_vm.product.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.product, "name", $event.target.value)}}})]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"form-group col-md-6"},[_c('label',[_vm._v("Məhsulun sayı")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.product.count),expression:"product.count"}],staticClass:"form-control",attrs:{"type":"text","placeholder":"Say daxil edin"},domProps:{"value":(_vm.product.count)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.product, "count", $event.target.value)}}})]),_vm._v(" "),_c('div',{staticClass:"form-group col-md-6"},[_c('label',[_vm._v("Məhsulun qiyməti")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.product.price),expression:"product.price"}],staticClass:"form-control",attrs:{"type":"text","placeholder":"Qiymət daxil edin"},domProps:{"value":(_vm.product.price)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.product, "price", $event.target.value)}}})])]),_vm._v(" "),_c('button',{staticClass:"btn btn-outline-info btn-block",on:{"click":_vm.add}},[_vm._v("\r\n            Əlavə et!\r\n          ")])])])])]),_vm._v(" "),(_vm.show)?_c('error',{attrs:{"text":_vm.errorText}}):_vm._e()],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
